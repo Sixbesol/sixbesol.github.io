@@ -1,0 +1,5 @@
+#RewriteEngine On
+#RewriteBase /
+#RewriteCond %{HTTPS} off [OR]
+#RewriteCond %{HTTP_HOST} !^www\.mini-e-store\.tk$ [NC]
+#RewriteRule ^(.*)$ http://www.mini-e-store.tk/$1 [L,R=301]

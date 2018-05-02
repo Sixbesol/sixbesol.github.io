@@ -1,0 +1,8 @@
+/app/cache/*
+.idea/*
+/app/logs/
+/**/*/.idea/*
+.sass-cache/*
+node_modules/*
+.php_cs.cache
+*.log
